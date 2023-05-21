@@ -16,7 +16,7 @@ root.title("Monte is silly")
 #Create an array object named items
 items = ["Item1", "Item 2", "Item 3", "Item 4", "Item 5"]
 
-#Creat Combo Box object, put the object in the root window and populate values.
+#Create Combo Box object, put the object in the root window and populate values.
 combo_box = ttk.Combobox(root, values=items)
 
 #The bind function will tie the selected item to the on_selected function
